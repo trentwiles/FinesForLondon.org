@@ -8,7 +8,7 @@ def hello():
 
 @app.route('/submit', methods=["POST"])
 def submit():
-    name = request.args.get("name")
+    name = request.form.get("name")
     reason = request.args.get("reason")
     amount = request.args.get("amount")
     email = request.args.get("email")
