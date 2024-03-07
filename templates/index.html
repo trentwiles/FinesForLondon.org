@@ -1,20 +1,31 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Fines For London</title>
-    </head>
-    <body>
-        <center>
-            <h1>London Fine Generator</h1>
-            <form action="/submit" method="post">
-                <label for="name">Offender Name:</label><br>
-                <input type="text" id="name" name="name"><br>
-                <label for="reason">Reason:</label><br>
-                <input type="text" id="reason" name="reason"><br>
-                <label for="amount">Amount (in Pounds):</label><br>
-                <input type="text" id="amount" name="amount"><br>
-                <input type="submit" value="Submit">
-            </form>
-        </center>
-    </body>
+
+<head>
+    <title>Fines For London</title>
+</head>
+
+<body>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+    <script>
+        console.log("hi what's good")
+    </script>
+    <center>
+        <h1>London Fine Generator</h1>
+        <form action="/submit" method="post">
+            <label for="name">Offender Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="reason">Reason:</label><br>
+            <input type="text" id="reason" name="reason"><br>
+            <label for="amount">Amount (in Pounds):</label><br>
+            <input type="text" id="amount" name="amount"><br>
+            <input type="submit" value="Submit">
+        </form>
+    </center>
+</body>
+
 </html>
